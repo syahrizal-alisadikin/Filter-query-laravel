@@ -38,7 +38,6 @@ class FilterController extends Controller
             }
 
             $query->where($field, $operator, $value);
-            $query->where($field, $operator, $value);
         }
 
         // Hitung total rows
